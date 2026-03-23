@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-background: #0B0F14;
+  --color-surface: #101419;
+  --color-primary: #FF6A00;
+  --color-primary-variant: #E65F00;
+  --color-on-surface: #F2F4F7;
+  --color-on-surface-variant: #98A2B3;
+  --color-outline: #344054;
+  --color-outline-variant: #1D2939;
+
+  --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-sans antialiased;
+  }
+}
+
+.gradient-text {
+  @apply bg-linear-to-br from-[#FF9500] to-[#FF6A00] bg-clip-text text-transparent;
+}
+
+.btn-premium {
+  @apply bg-linear-to-br from-[#FF9500] to-[#FF6A00] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_20px_-5px_rgba(255,106,0,0.4)] active:scale-95;
+}
+
+.card-premium {
+  @apply bg-white/[0.02] border border-white/5 backdrop-blur-sm;
+}
