@@ -19,6 +19,7 @@ export default function Blog() {
               className="object-cover w-full h-full" 
               src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2070&auto=format&fit=crop"
               referrerPolicy="no-referrer"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
           </div>
@@ -82,6 +83,7 @@ export default function Blog() {
                     className="w-full h-full object-cover" 
                     src="https://lh3.googleusercontent.com/aida/ADBb0ugfNZaPjWpabSBhicxDq3ttGZJNw0b6KLAM8tVfTUMy-Jqjaw-bpyyWAPNFFiSAhCSJTwTJwz_S7EPFbPd47v8rJp1dxtewyCLQR_tcB79HGigjKG9MFf77EWU0e0eGMM921OSE3WxVz4L19rHcI34ELYDg_FvcG5VP4fuXhKzU9LVowPnT4JnpAL3U995dxff1xyK3vM9Rw33SLsD_t4FttqQmkRzEOvOvCNxRHluOKxwwQ0Dn1abDxKLlSCsTOWxSN1abmyIZIzU"
                     referrerPolicy="no-referrer"
+                    loading="lazy"
                   />
                 </div>
                 <div className="text-center sm:text-left">
@@ -147,6 +149,7 @@ export default function Blog() {
                   className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700" 
                   src={post.img}
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>

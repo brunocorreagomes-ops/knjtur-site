@@ -41,6 +41,7 @@ export default function Guide() {
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" 
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuAW-ABKHjTIYE8drvqydDEfR85cfYDU0Xhbg5HCt6_Py_6-grlJR_0Svj0K_gwN-VN5cDgq8WHDabOxV1I079-cIugJ8wUirVE0GLPCuM-oTPeuRkL1vAWDV4wbvDHsQvI1SfGSigPaND6Gv6j0nm44ugXG4e5QsBDRYpA5Xa9ezbXZ_RdDt3I9sPBGlfduH1-mTdmx79SN_wNp2JNt29NSHTw74sndR0aL81SSUpjR4us4wRZr3YdqumnT80wbHVSpWBK4M893T_z2"
               referrerPolicy="no-referrer"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-40"></div>
           </div>

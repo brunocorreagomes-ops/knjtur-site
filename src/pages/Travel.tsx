@@ -42,6 +42,7 @@ export default function Travel() {
               src="https://images.unsplash.com/photo-1436491865332-7a61a109c0f3?q=80&w=2070&auto=format&fit=crop"
               referrerPolicy="no-referrer"
               alt="Luxury Travel"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-40"></div>
           </div>
@@ -140,18 +141,18 @@ export default function Travel() {
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <div className="aspect-square rounded-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
-                <img src="https://images.unsplash.com/photo-1506012733851-bb0785baabc0?q=80&w=2071&auto=format&fit=crop" className="w-full h-full object-cover" alt="Travel 1" />
+                <img src="https://images.unsplash.com/photo-1506012733851-bb0785baabc0?q=80&w=2071&auto=format&fit=crop" className="w-full h-full object-cover" alt="Travel 1" loading="lazy" />
               </div>
               <div className="aspect-[3/4] rounded-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
-                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop" className="w-full h-full object-cover" alt="Travel 2" />
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop" className="w-full h-full object-cover" alt="Travel 2" loading="lazy" />
               </div>
             </div>
             <div className="space-y-4 pt-12">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
-                <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop" className="w-full h-full object-cover" alt="Travel 3" />
+                <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop" className="w-full h-full object-cover" alt="Travel 3" loading="lazy" />
               </div>
               <div className="aspect-square rounded-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
-                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2073&auto=format&fit=crop" className="w-full h-full object-cover" alt="Travel 4" />
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2073&auto=format&fit=crop" className="w-full h-full object-cover" alt="Travel 4" loading="lazy" />
               </div>
             </div>
           </div>

@@ -95,6 +95,7 @@ export default function Home() {
                 className="w-full h-[600px] object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700" 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoqnOJ0P0xjDs-LswEvCX_9NGpLczFO12I_G91T67Ri3gUfeCLzJii63FC6CpM0o9HYv6PMp2C1sJiVhiXu0niZgnI22U9vgzMMmnqq-wy7PA3RiITeKHMpWE1Tt7xUKt8k7bQ16Gsd3leTrUc2ausdtKKuq2wiwLZtILVMFeHtN_KMGUH9eIdDYEVk_PIelW8SzqgWpS953Qg8Hiwu_2lIy2Wn60j5dUPb8EZW4QopvBJ6jMmsCSQyy3DEUPqtleVfFUGQqtCazQO"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
             </div>
@@ -205,6 +206,7 @@ export default function Home() {
                 className="w-full h-[500px] object-cover brightness-75 hover:brightness-100 transition-all duration-1000" 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0BQhO0ilk_VYshrLA8ZTAozGRH0U63cOGG_E-PD8Lp84FsixC3Ipte6kZ9YAEOLrzu8ZHSH_-9WWwb3GYs4c4zVtNqx5ja3DwJVX8NJJ9Hrm9aZJtUb3bBK92nxWP1nfu1j_B7-YwPLvfKXQiN8ttr0ps-CWJwYVlQzrZlCRwqfNUCiJpTerLpdXrH8nCvZ0pgS763GXgNErwSmrPyd8QVwH28e4kDXWTAHQLSsc9n0nsoze2NVzOroXElhzvw8kJXatQlamoSP4b"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
             </div>
           </motion.div>
@@ -252,6 +254,7 @@ export default function Home() {
                 className="w-full h-full object-cover" 
                 src="https://lh3.googleusercontent.com/aida/ADBb0ugfNZaPjWpabSBhicxDq3ttGZJNw0b6KLAM8tVfTUMy-Jqjaw-bpyyWAPNFFiSAhCSJTwTJwz_S7EPFbPd47v8rJp1dxtewyCLQR_tcB79HGigjKG9MFf77EWU0e0eGMM921OSE3WxVz4L19rHcI34ELYDg_FvcG5VP4fuXhKzU9LVowPnT4JnpAL3U995dxff1xyK3vM9Rw33SLsD_t4FttqQmkRzEOvOvCNxRHluOKxwwQ0Dn1abDxKLlSCsTOWxSN1abmyIZIzU"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
               <div className="absolute bottom-10 left-10">
@@ -364,6 +367,7 @@ export default function Home() {
                       alt={testimonials[currentTestimonial].name}
                       className="w-full h-full object-cover rounded-full"
                       referrerPolicy="no-referrer"
+                      loading="lazy"
                     />
                   </div>
                 </div>
